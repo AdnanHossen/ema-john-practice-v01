@@ -1,0 +1,29 @@
+
+.product-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border-bottom: .1rem solid lightgray;
+  margin-right: .5rem;
+  padding: 2rem;
+}
+.product-title {
+  color: blue;
+  font-weight: 500;
+}
+.product-rating{
+  color: gold;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+.btn-regular{
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  background-color: gold;
+  padding: .5rem 3rem;
+  border: .1rem solid gray;
+  border-radius: .5rem;
+}
+.btn-regular:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+}
+
+.logo {
+  margin: 3rem 0;
+  height: 5rem;
+}
+
+.header nav {
+  background-color: black;
+  /* text-align: left; */
+}
+
+.header nav a {
+  color: white;
+  padding: 1rem;
+  line-height: 3.8rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-right: 2rem;
+}
+
+.header nav a:hover {
+  color: black;
+  background-color: lightgray;
+}
